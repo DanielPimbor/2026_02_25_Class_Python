@@ -6,6 +6,7 @@ class Student:
         self.age = age_
         self.height = height_
         self.gender = gender_
+        self.score = 0
 
     def learn(self, test):
         self.score += test
